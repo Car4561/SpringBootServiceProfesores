@@ -41,7 +41,7 @@ public class Profesor implements Serializable {
 	private String password;
 	
        @Type(type = "text")
-       @Column(length = 20000)
+       @Column(length = 200000)
 	private String foto;
 	
 	@Column(name= "create_at")
