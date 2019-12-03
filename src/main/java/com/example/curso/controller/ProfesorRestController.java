@@ -28,7 +28,7 @@ public class ProfesorRestController {
 	@Autowired
 	private IProfesorService profesorService;
 	
-	@GetMapping("/profesores")
+	@GetMapping("/profesoress")
 	@ResponseStatus(HttpStatus.OK)
 	public List<Profesor> getProfesores(){
 		return profesorService.findAll();
